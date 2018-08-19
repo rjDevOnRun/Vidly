@@ -10,6 +10,8 @@ namespace Vidly
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+        // When the app is started.. this method is called
+        // 
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
